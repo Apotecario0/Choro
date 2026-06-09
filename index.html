@@ -19,12 +19,12 @@
         <header class="text-center mb-10 transform hover:scale-105 transition-transform duration-300">
             <span class="text-5xl">🎶</span>
             <h1 class="text-4xl font-black text-emerald-800 tracking-tight mt-2 drop-shadow-xs">Brasileirinho</h1>
-            <p class="text-amber-700/80 font-medium tracking-wide">Clube de Choro & Gestão de Repertório</p>
+            <p class="text-amber-700/80 font-medium tracking-wide">Clube de Choro do Brasileirinho: Registro dos Encontros</p>
         </header>
 
         <div class="flex bg-stone-200/60 p-1.5 rounded-full mb-8 max-w-md mx-auto shadow-inner">
             <button onclick="switchTab('cadastro-tab')" id="btn-cadastro" class="flex-1 py-2.5 px-4 rounded-full text-sm font-bold text-emerald-900 bg-white shadow-xs transition-all cursor-pointer tab-btn">
-                👋 Rodas & Cadastro
+                👋 Rodas & Registro
             </button>
             <button onclick="switchTab('dashboard-tab')" id="btn-dashboard" class="flex-1 py-2.5 px-4 rounded-full text-sm font-bold text-stone-600 hover:text-stone-900 transition-all cursor-pointer tab-btn">
                 📊 Painel & Estatísticas
@@ -44,11 +44,11 @@
                 <form id="formRoda" class="space-y-6">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div>
-                            <label class="block text-xs font-black text-stone-500 uppercase tracking-wider mb-1">Roda Número</label>
+                            <label class="block text-xs font-black text-stone-500 uppercase tracking-wider mb-1">Encontro N°: </label>
                             <input type="number" id="encontroNumero" required class="w-full rounded-xl border-2 border-stone-200 p-3 font-medium focus:border-emerald-500 focus:ring-3 focus:ring-emerald-100 outline-none transition-all">
                         </div>
                         <div>
-                            <label class="block text-xs font-black text-stone-500 uppercase tracking-wider mb-1">Quando aconteceu?</label>
+                            <label class="block text-xs font-black text-stone-500 uppercase tracking-wider mb-1">Data do Encontro: </label>
                             <input type="date" id="data" required class="w-full rounded-xl border-2 border-stone-200 p-3 font-medium focus:border-emerald-500 focus:ring-3 focus:ring-emerald-100 outline-none transition-all">
                         </div>
                     </div>
